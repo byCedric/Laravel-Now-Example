@@ -8,7 +8,7 @@ WORKDIR /var/www
 COPY . .
 RUN composer install
 
-FROM bycedric/laravel-serve as laravel
+FROM bycedric/serve-laravel as laravel
 WORKDIR /var/www
 COPY . .
 COPY --from=node /var/www/public /var/www/public
