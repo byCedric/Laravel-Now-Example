@@ -17,4 +17,6 @@ COPY --from=composer /var/www/vendor /var/www/vendor
 ENV SERVER_ROOT /var/www/public
 ENV SERVER_NAME laravel-now
 
+EXPOSE 80
+
 RUN chmod -R 777 storage
