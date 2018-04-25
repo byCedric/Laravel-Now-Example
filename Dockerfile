@@ -19,4 +19,14 @@ ENV SERVER_NAME laravel-now
 
 EXPOSE 80
 
+RUN mkdir -p \
+	storage/app \
+	storage/app/public \
+	storage/framework \
+	storage/framework/cache \
+	storage/framework/sessions \
+	storage/framework/testing \
+	storage/framework/views \
+	storage/logs
+
 RUN chmod -R 777 storage
