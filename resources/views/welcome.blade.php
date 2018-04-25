@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel @ <a href="https://now.sh">now.sh</a>
                 </div>
 
                 <div class="links">
@@ -88,6 +88,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/bycedric/laravel-now-example">Source</a>
                 </div>
             </div>
         </div>
