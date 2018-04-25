@@ -1,7 +1,10 @@
 {
 	"type": "docker",
 	"name": "laravel-example",
-	"alias": "laravel-example.now.sh",
+	"alias": [
+		"laravel.now.sh",
+		"laravel-example.now.sh"
+	],
 	"dotenv": ".env.production",
 	"public": true
 }
